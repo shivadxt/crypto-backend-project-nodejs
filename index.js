@@ -40,10 +40,18 @@ app.get('/convert/:source/:amount/:target', async (req, res) => {
         },
       });
 
+      if (!response.data || !response.data[source] || !response.data[source][target]) {
+        return res.status(404).json({ error: 'Conversion not supported or invalid cryptocurrency' });
+      }
+
+      const conversionRate = response.data[source][target];
+      const convertedAmount = amount * conversionRate;
+
       res.json({
         source,
         amount: parseFloat(amount),
-        target
+        target,
+        convertedAmount: parseFloat(convertedAmount.toFixed(2)),
       });
         
     } catch (error) {

@@ -11,3 +11,5 @@ This is a simple cryptocurrency price conversion application:
 Setting route for 2nd API to get the conversion rate :
 - Route setup 
 - Passing required parameters in Params  
+- Added formula to calculate the conversion of the cryptocurrency to selected currency
+![Alt text](<Screenshot from 2023-12-30 19-16-22.png>)
