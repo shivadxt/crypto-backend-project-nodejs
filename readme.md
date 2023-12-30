@@ -5,11 +5,11 @@ This is a simple cryptocurrency price conversion application:
  GET - /coins​/markets (We'll be using this to get top 100 Cryptocurrencies)
  List all supported coins price, market cap, volume, and market related data
 - Recieved Top 100 crypto Data on our local
-![Alt text](<Screenshot from 2023-12-30 18-58-50.png>)
+![Alt text](</screenshots/Screenshot from 2023-12-30 18-58-50.png>)
 
 
 Setting route for 2nd API to get the conversion rate :
 - Route setup 
 - Passing required parameters in Params  
 - Added formula to calculate the conversion of the cryptocurrency to selected currency
-![Alt text](<Screenshot from 2023-12-30 19-16-22.png>)
+![Alt text](</screenshots/Screenshot from 2023-12-30 19-16-22.png>)
