@@ -7,3 +7,7 @@ This is a simple cryptocurrency price conversion application:
 - Recieved Top 100 crypto Data on our local
 ![Alt text](<Screenshot from 2023-12-30 18-58-50.png>)
 
+
+Setting route for 2nd API to get the conversion rate :
+- Route setup 
+- Passing required parameters in Params  
