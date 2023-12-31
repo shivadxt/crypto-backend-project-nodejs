@@ -11,7 +11,7 @@ app.listen(2000,()=> {
 app.use(cors()); 
 
 app.get('/',(req,res)=>{
-    res.send(" Welcome to Crypto Currency Converter : To fetch top 100 crypto plese visit- /top100 , To get conversion rates please follow - /convert/'crypto name'/'amount'/'curency' ");
+    res.send(" Welcome to Crypto Currency Converter : To fetch top 100 crypto please visit- /top100 , To get conversion rates please follow - /convert/'crypto name'/'amount'/'curency' ");
 });
 
 app.get('/top100', async (req, res) => {
