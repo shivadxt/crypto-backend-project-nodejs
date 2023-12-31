@@ -11,7 +11,7 @@ app.listen(2000,()=> {
 app.use(cors()); 
 
 app.get('/',(req,res)=>{
-    res.send("Crypto Currency Converter");
+    res.send(" Welcome to Crypto Currency Converter : To fetch top 100 crypto plese visit- https://crypto-backend-project-nodejs-ad3jex19b.vercel.app/top100 , To get conversion rates please follow - https://crypto-backend-project-nodejs-ad3jex19b.vercel.app/convert/'crypto name'/'amount'/'curency' ");
 })
 
 app.get('/top100', async (req, res) => {
