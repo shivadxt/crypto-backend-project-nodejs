@@ -1,11 +1,14 @@
 const { default: axios } = require('axios');
 const express = require('express');
+const cors = require('cors');
 
 const app = express();
 
 app.listen(2000,()=> {
     console.log(`Server is started`);
 })
+
+app.use(cors()); 
 
 app.get('/',(req,res)=>{
     res.send("Crypto Currency Converter");
